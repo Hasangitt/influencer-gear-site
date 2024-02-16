@@ -24,7 +24,7 @@
 
 /* header section styles start */
 header{
- padding: 50px 245px;
+    padding: 50px 245px;
 
 }
 
@@ -99,6 +99,143 @@ li a{
    top: 40px;
 }
 /* header section styles end */
+
+
+/* main styles */
+
+.sponsors{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 80px;
+}
+
+.collection-container{
+    margin-bottom: 80px;
+}
+
+.collection-title{
+    text-align: center;
+    font-size: var(--title-font);
+    margin-top: 120px;
+    margin-bottom: 60px;
+
+}
+
+.collection-content{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collection-card{
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.collection-card img{
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.see-more-btn{
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 284px;
+    color: #E02C6DDE;
+    text-decoration: none;
+}
+
+.see-more-btn a{
+    font-size: var(--description-font);
+    color: #E02C6DDE;
+    text-decoration: none;
+}
+
+
+.features-container{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 290px;
+    margin-bottom: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+
+.features-container img{
+    width: 60%;
+    height: auto;
+}
+
+.features-container h1{
+    font-size: var(--header-font);
+    margin-bottom: 10px;
+}
+
+.features-container p{
+    font-size: var(--description-font);
+    margin-bottom: 10px;
+}
+
+/* footer styles */
+
+
+footer{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #0A0826;
+    color: var(--white-color);
+    padding: 70px;
+}
+
+footer h2{
+    font-size: var(--title-font);
+    color: var(--white-color);
+}
+
+footer h3{
+    font-size: var(--price-des-font);
+    margin-top: 8px;
+    color: #787885;
+}
+
+.fa-facebook, .fa-square-instagram, .fa-twitter, .fa-youtube{
+    margin-top: 16px;
+    padding: 6px;
+    background-color:#4c4878;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* reponsive for small device*/
