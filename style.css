@@ -301,6 +301,55 @@ footer h3{
         margin: 8px 0px;
     }
 
+    /* main  section responsive */
+
+
+        .sponsors{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .collection-container{
+            margin-bottom: 25px;
+        }
+
+        .collection-title{
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .collection-content{
+            grid-template-columns: 1fr;
+        }
+
+        .see-more-btn{
+            margin-right: 20px;
+        }
+        .features-container{
+            flex-direction: column-reverse;
+            margin: 0px 25px;
+            gap: 30px;
+            text-align: center;
+        }
+
+        .features-container h1 {
+            font-size: var(--res-header-font);
+        }
+        .features-container img{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        footer{
+            padding: 25px;
+        }
+        footer h2{
+            font-size: var(--res-title-font);
+        }
+
+        footer h3{
+            font-size: var(--res-price-des-font)
+        }
 }
 
 /* responsive for medium device */
