@@ -16,8 +16,8 @@
    --price-des-color: #787885;
    --white-color: #fff;
    --res-title-font: 20px;
-   --res-description-font: 14px;
-   --res-header-font: 45px;
+   --res-description-font: 18px;
+   --res-header-font: 36px;
    --res-price-des-font: 12px;
 }
 
@@ -167,3 +167,36 @@ li a{
 }
 
 /* responsive for medium device */
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+    header{
+        padding: 30px 60px;
+       }
+
+    
+    .banner-content{
+        width:105%;
+        height: 100%;
+    }
+    
+    
+    .banner-img{
+       position: relative;
+       left: 0px;
+       top: 40px;
+    }
+
+    .banner-txt{
+        margin-top: 100px;
+    }
+
+    .banner-title{
+        font-size: var(--res-header-font);
+    }
+
+    .banner-des{
+        font-size: var(--res-description-font);
+    }
+
+}
