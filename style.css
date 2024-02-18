@@ -385,4 +385,35 @@ footer h3{
         font-size: var(--res-description-font);
     }
 
+    .sponsors{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .collection-content{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .see-more-btn{
+        margin-right: 20px;
+    }
+
+    .features-container{
+        flex-direction: column-reverse;
+        margin: 0px 25px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .features-container h1 {
+        font-size: var(--res-header-font);
+    }
+    .features-container img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
 }
