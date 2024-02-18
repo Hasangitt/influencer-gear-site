@@ -358,23 +358,38 @@ footer h3{
 
     header{
         padding: 30px 60px;
-       }
+    }
 
-    
-    .banner-content{
-        width:105%;
-        height: 100%;
+
+    .nav-container{
+        flex-direction: column;
+      }
+
+      .page-logo{
+        margin-bottom: 12px;
+      }
+
+      .banner-content{
+        flex-direction: column-reverse;
+        background-position: top center;
+        background-size: 80%;
+        padding-bottom: 0px;
+        bottom: 50px;
     }
-    
-    
+
     .banner-img{
-       position: relative;
-       left: 0px;
-       top: 40px;
+        left: 100px;
     }
+          
+    .banner-img img{
+        width: 70%;
+        align-items: center;
+    }
+
 
     .banner-txt{
         margin-top: 100px;
+        text-align: center;
     }
 
     .banner-title{
